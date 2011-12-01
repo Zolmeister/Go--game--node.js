@@ -1,0 +1,2 @@
+Go (the board game) written in Javascript for a node.js server
+The game uses websockets to communicate with the server.
