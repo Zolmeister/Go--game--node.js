@@ -1,0 +1,14 @@
+<html>
+<body>
+<input type="button" value="pass" onclick="pass();" style="position:absolute;">
+<span style="display:none;" id="p2urlContainer"><span style="position:absolute;left:60px">P2:</span> 
+<input id="p2url" type="text" size=50 style="position:absolute;left:85px"></span>
+<span id="turn" style="position:absolute;top:40px;">Other Players Turn</span>
+<span id="myScore" style="position:absolute;top:70px;">My Score: 0</span>
+<span id="opponentScore" style="position:absolute;top:90px;">Opponents Score: 0</span>
+<canvas id="canvas"></canvas>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/game.js"></script>
+<script src="/socket.js"></script>
+</body>
+</html>
